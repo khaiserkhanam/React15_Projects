@@ -1,0 +1,104 @@
+.authentication-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #5f6368;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.authentication-form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+
+.authentication-form input {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.authentication-form input:focus {
+  border-color: #a3c9f1;
+  box-shadow: 0 0 5px #a3c9f1;
+}
+
+.authentication-form label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #707070;
+  margin-bottom: 5px;
+}
+
+.authentication-form button {
+  padding: 12px;
+  font-size: 1rem;
+  background-color: #6ec1e4;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.authentication-form button:hover {
+  background-color: #4a98b9;
+  transform: translateY(-2px);
+}
+
+.authentication-form button:active {
+  transform: translateY(1px);
+}
+
+.welcome-container {
+  text-align: center;
+  background-color: #e9f7fa;
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-container h2 {
+  font-size: 1.6rem;
+  color: #4a5a6a;
+}
+
+.welcome-container button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  background-color: #f2a8a8;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.welcome-container button:hover {
+  background-color: #e08787;
+  transform: translateY(-2px);
+}
+
+.welcome-container button:active {
+  transform: translateY(1px);
+}

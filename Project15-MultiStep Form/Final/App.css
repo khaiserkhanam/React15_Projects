@@ -1,0 +1,148 @@
+.multi-step-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #4A4A4A;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    color: #5A5A5A;
+    margin-bottom: 15px;
+    font-weight: 500;
+  }
+  
+  form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #d1d1d1;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease;
+    width: 100%;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus {
+    border-color: #a3c9f1;
+    box-shadow: 0 0 5px #a3c9f1;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #6EC1E4;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #4a98b9;
+  }
+  
+  button:active {
+    transform: translateY(1px);
+  }
+  
+  button[type="button"] {
+    background-color: #f2a8a8;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #e08787;
+  }
+  
+  button[type="submit"] {
+    background-color: #6EC1E4;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #4a98b9;
+  }
+  
+  form div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .submitted{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:150px 0;
+  }
+  .submit-success {
+
+    text-align: center;
+    background-color: #e9f7fa;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .submit-success h2 {
+    font-size: 1.6rem;
+    color: #4a5a6a;
+    margin-bottom: 20px;
+  }
+  
+  .submit-success ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .submit-success li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #4A4A4A;
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    form {
+      width: 90%;
+      max-width: 100%;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  
